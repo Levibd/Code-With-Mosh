@@ -1,0 +1,27 @@
+.photos {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.box {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .photos {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .photos {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .photos img:nth-of-type(3) {
+      grid-column: 2 / 4;
+      grid-row: 1 / 3;
+    }
+  }
