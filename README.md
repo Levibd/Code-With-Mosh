@@ -14,5 +14,5 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] HTML & CSS Bundle 1
-- [] HTML & CSS Bundle 2
+- [X] HTML & CSS Bundle 2
 
