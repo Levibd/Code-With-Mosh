@@ -1,0 +1,48 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', 'PlayFair', 'Poppins', 'Courier New', Courier, monospace ;
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans'; 
+    text-align: left;
+}
+
+h1 { 
+     font-size: 3.052rem;
+}
+
+h2 {
+    font-size: 2.441rem;
+}
+
+h3{
+    font-size: 1.953rem;
+}
+
+img {
+    width: 100%;
+}
+
+p.recipe {
+    font-family: 'Playfair';
+    font-style: italic;
+    font-size: 1.563rem;
+
+}
+
+ol {
+    font-family: 'Playfair';
+    font-weight: 400;  
+}
+
+.receita {
+    max-width: 1140px;
+    margin: 0 auto;
+}
