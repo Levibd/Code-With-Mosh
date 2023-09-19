@@ -1,0 +1,89 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+
+.space {
+  align-items: center;
+  background: url(space_/space_idzjq0_c_scale\,w_200.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.space,
+h1 {
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 1.5;
+  word-spacing: 1.5rem;
+  text-shadow: 2px 2px 0 #000;
+  text-align: center;
+}
+
+
+
+.tagline {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  padding: 1rem;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+@media screen and (min-width:320px) {
+
+  .space {
+    background-size: cover;
+  }
+
+}
+
+@media screen and (min-width:853px) {
+
+  .space {
+    background: url(space_/space_idzjq0_c_scale\,w_888.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .space,
+  h1 {
+    font-size: 4rem;
+  }
+
+}
+
+@media screen and (min-width:1228px) {
+
+  .space {
+    background: url(space_/space_idzjq0_c_scale\,w_1260.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+
+}
+
+@media screen and (min-width:1440px) {
+
+  .space {
+    background: url(space_/space_idzjq0_c_scale\,w_1400.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 8rem;
+  }
+
+}
