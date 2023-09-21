@@ -15,4 +15,5 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] HTML & CSS Bundle 1
 - [X] HTML & CSS Bundle 2
+- [X] HTML & CSS Bundle 3 - Studying
 
